@@ -96,3 +96,35 @@
   font-weight: 500;
 }
 /* Hero Section Styling End */
+/* Browse Renge Style Start */
+.browse-range-area {
+  width: 100%;
+  height: 100vh;
+  margin-top: 3rem;
+}
+.browse-range {
+  text-align: center;
+}
+.browse-range h1 {
+  color: #333333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.browse-range p {
+  color: #666666;
+  font-size: 1.26rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.renge-img-area {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.renge-img h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 1rem;
+}
+/* Browse Renge Style End */
