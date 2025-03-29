@@ -105,12 +105,13 @@
 .browse-range {
   text-align: center;
 }
-.browse-range h1 {
+.range-title {
   color: #333333;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
-.browse-range p {
+.renge-para {
   color: #666666;
   font-size: 1.26rem;
   font-weight: 400;
@@ -128,3 +129,192 @@
   margin-top: 1rem;
 }
 /* Browse Renge Style End */
+/* ============================================= */
+/* Products Style Start */
+.products-area {
+  text-align: center;
+}
+.product-area-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+.products-content-area {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.product-content {
+  position: relative;
+  background-color: #f4f5f7;
+  width: fit-content;
+  margin: 1.5rem 0;
+}
+.add-to-card {
+  background-color: #fff;
+  color: #b88e2f;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+.social-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 1rem;
+  margin-top: 1.7rem;
+}
+.icon-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-div span {
+  margin-left: 5px;
+}
+
+.product-main {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #3a3a3a;
+  padding: 0 2rem;
+}
+
+.product-content:hover .product-hover {
+  opacity: 0.8;
+}
+
+.social-icons {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.product-img {
+  position: relative;
+}
+.product-tag-dis {
+  position: absolute;
+  top: 1.5rem;
+  left: 13rem;
+  background-color: #e97171;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.product-tag {
+  position: absolute;
+  top: 1.5rem;
+  left: 13rem;
+  background-color: #2ec1ac;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.prodcut-text {
+  padding: 1rem;
+}
+.product-title {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+}
+.product-text {
+  color: #898989;
+}
+.product-price-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.current-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.actual-price {
+  color: #b0b0b0;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.show-btn {
+  margin-top: 3rem;
+}
+.show-more-btn {
+  border: 2px solid #b88e2f;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.7rem 4rem;
+  color: #b88e2f;
+}
+/* Products Style End */
+/* Explore More Styling Start */
+.explore-more-area {
+  background-color: #fcf8f3;
+  width: 100%;
+  height: 100%;
+  margin: 5rem 0;
+}
+.explore-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.explore-content {
+  padding: 7rem;
+}
+.explore-title {
+  font-size: 2.5rem;
+  color: #3a3a3a;
+}
+.explore-para {
+  color: #616161;
+  margin-bottom: 2rem;
+}
+.explore-btn {
+  background-color: #b88e2f;
+  text-decoration: none;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+/* Explore More Styling End */
+/* Funrio Furniture Section Styling Start  */
+/* Funrio Furniture Section Styling End  */
