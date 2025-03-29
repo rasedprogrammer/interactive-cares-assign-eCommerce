@@ -428,7 +428,123 @@
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  /*Hero Section start  */
+  .hero-area {
+    width: 100%;
+    height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10rem;
+  }
+  .text-box {
+    width: 100%;
+    height: max-content;
+    background-color: #000000;
+    opacity: 0.6;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .arrival-title {
+    color: #b88e2f;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .arrival-para {
+    color: #d9d9d9;
+  }
+  .arrival-btn {
+    background-color: #b88e2f;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  /*Hero Section End  */
+  .browse-range-area {
+    width: 100%;
+    margin-bottom: 75rem;
+  }
+  .renge-img-area {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .products-content-area {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .range-title {
+    font-size: 1.5rem;
+  }
+  .renge-para {
+    font-size: 1rem;
+  }
+  /* Explore More Section Style Start */
+  .explore-more {
+    display: block;
+  }
+  .explore-img img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .explore-content {
+    padding: 1rem;
+  }
+  .explore-title {
+    font-size: 1.7rem;
+    color: #3a3a3a;
+  }
+  .explore-para {
+    font-size: 1rem;
+    color: #616161;
+    margin-bottom: 2rem;
+  }
+  .explore-btn {
+    background-color: #b88e2f;
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  /*  */
+  .furniture-area {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .furniture-title {
+    font-size: 1.5rem;
+    color: #3a3a3a;
+  }
+  .furniture-text {
+    color: #616161;
+    font-size: 1.2rem;
+  }
+  .furniture-area img {
+    width: 80%;
+  }
+  /*  */
+
+  /* Explore More Section Style End */
+  /* Footer Section Start */
   .footer {
     position: relative;
     bottom: 0;
@@ -450,5 +566,6 @@
   .footer-col form button {
     margin: 10px 0 0 0;
   }
-} */
+  /* Footer Section End */
+}
 /* Footer Section Styling End */
