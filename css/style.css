@@ -142,9 +142,6 @@
 /* Browse Renge Style End */
 /* ============================================= */
 /* Products Style Start */
-.products-area {
-  text-align: center;
-}
 .product-area-title {
   text-align: center;
   font-size: 2.4rem;
@@ -285,6 +282,7 @@
   text-decoration: line-through;
 }
 .show-btn {
+  text-align: center;
   margin-top: 3rem;
 }
 .show-more-btn {

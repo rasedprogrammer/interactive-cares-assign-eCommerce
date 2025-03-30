@@ -6,7 +6,7 @@
     <title>Shop</title>
     <!-- External Css Styling -->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="stylesheet" href="../css/check-out.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,54 +68,227 @@
       </nav>
     </header>
     <!-- Header Section End -->
-    <!-- Footer Section Start -->
-    <hr class="hr-tag" />
-    <section class="footer">
-      <div class="footer-row">
-        <div class="footer-col">
-          <h4 class="footer-title">Funiro.</h4>
-          <ul class="links">
-            <li>
-              <a class="address" href="#"
-                >400 University Drive Suite 200 Coral <br />
-                Gables, <br />
-                FL 33134 USA</a
-              >
-            </li>
-          </ul>
+        <!-- Banner Section Start -->
+        <section class="banner-area">
+          <div class="banner">
+            <div class="banner-container">
+              <img
+                class="cart-logo"
+                src="../images/main/cart/logo.png"
+                alt="Logo Image"
+              />
+              <h1 class="banner-title">Checkout</h1>
+              <p class="banner-path"><span>Home ></span> Checkout</p>
+            </div>
+          </div>
+        </section>
+        <!-- Banner Section End -->
+        <!--Cart Details Section Start  -->
+        <section class="checkout-area">
+          <div class="check-out">
+            <div class="billing-section">
+              <h1 class="billing-title">Billing details</h1>
+              <div class="name-div">
+                <div class="firt-name">
+                  <label for="name">First Name</label>
+                  <input class="input-field" type="text" />
+                </div>
+                <div class="last-name">
+                  <label for="name">Last Name</label>
+                  <input class="input-field" type="text" />
+                </div>
+              </div>
+              <div class="company-div">
+                <label for="name">First Name</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="dropdown-input-div">
+                <label for="name">Country / Region</label>
+                <select class="input-field" name="cars">
+                  <option value="srilanka">Sri Lanka</option>
+                  <option value="singapore">Singapore</option>
+                  <option value="maldives">Maldives</option>
+                  <option value="qatar">Qatar</option>
+                </select>
+              </div>
+              <div class="company-div">
+                <label for="name">Street address</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name">Town / City</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name">Province</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name">ZIP code</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name">Phone</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name">Email address</label>
+                <input class="input-field" type="text" />
+              </div>
+              <div class="company-div">
+                <label for="name" id="label-mg"></label>
+                <input class="input-field" type="text" />
+              </div>
+            </div>
+            <div class="product-summary">
+              <div class="product-sum">
+                <div class="product-text-div">
+                  <h3 class="product-title">Product</h3>
+                  <div class="text">Asgaard sofa <span> x 1</span></div>
+                  <p class="product-sub">Subtotal</p>
+                  <p class="product-total">Total</p>
+                </div>
+                <div class="product-total-text">
+                  <h3 class="product-title">Subtotal</h3>
+                  <p>Rs. 250,000.00</p>
+                  <p>Rs. 250,000.00</p>
+                  <p class="total-color-price">Rs. 250,000.00</p>
+                </div>
+              </div>
+              <hr class="hr-tag" />
+              <!-- =========================== -->
+              <div class="policy-section-area">
+                <div class="bank-transer">
+                  <div class="dot-circle"></div>
+                  <p>Direct Bank Transfer</p>
+                </div>
+              </div>
+              <!-- ============================= -->
+
+              <p class="bank-policy">
+                Make your payment directly into our bank account. Please use
+                your Order ID as the payment reference. Your order will not be
+                shipped until the funds have cleared in our account.
+              </p>
+              <div class="payment-bank">
+                <div class="dot-black-circle"></div>
+                <p>Direct Bank Transfer</p>
+              </div>
+              <div class="payment-cash">
+                <div class="dot-black-circle"></div>
+                <p>Cash On Delivery</p>
+              </div>
+              <p class="despriction">
+                Your personal data will be used to support your experience
+                throughout this website, to manage access to your account, and
+                for other purposes described in our
+                <span class="color-bold">privacy policy.</span>
+              </p>
+              <div class="btn">
+                <a href="#">Place Order</a>
+              </div>
+              <!-- ================================ -->
+            </div>
+          </div>
+        </section>
+        <!--Cart Details Section End  -->
+        <!--  -->
+        <!-- Shop Service Section Start -->
+        <div class="service-area">
+          <div class="service">
+            <div class="service-items">
+              <img
+                src="../images/main/shop-icons/trophy.png"
+                alt="High Quality"
+              />
+              <div class="service-text">
+                <h1>High Quality</h1>
+                <p>crafted from top materials</p>
+              </div>
+            </div>
+            <div class="service-items">
+              <img
+                src="../images/main/shop-icons/guarantee.png"
+                alt="Warranty"
+              />
+              <div class="service-text">
+                <h1>Warranty Protection</h1>
+                <p>Over 2 years</p>
+              </div>
+            </div>
+            <div class="service-items">
+              <img
+                src="../images/main/shop-icons/shipping.png"
+                alt="Shipping"
+              />
+              <div class="service-text">
+                <h1>Free Shipping</h1>
+                <p>craftedOrder over 150 $</p>
+              </div>
+            </div>
+            <div class="service-items">
+              <img
+                src="../images/main/shop-icons/customer-support.png"
+                alt="Customer Support"
+              />
+              <div class="service-text">
+                <h1>High24 / 7 Support</h1>
+                <p>Dedicated support</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="footer-col">
-          <h4>Links</h4>
-          <ul class="links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Help</h4>
-          <ul class="links">
-            <li><a href="#">Payment Options</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">Returns</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Newsletter</h4>
-          <form action="#" class="links">
-            <input
-              type="text"
-              placeholder="Enter Your Email Address"
-              required
-            />
-            <button type="submit">SUBSCRIBE</button>
-          </form>
-        </div>
-      </div>
-      <div class="line-div"></div>
-      <p class="footer-reserved">2023 furino. All rights reserved</p>
-    </section>
-    <!-- Footer Section End -->
+        <!-- Shop Service Section End -->
+        <!-- Footer Section Start -->
+        <hr class="hr-tag" />
+        <section class="footer">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h4 class="footer-title">Funiro.</h4>
+              <ul class="links">
+                <li>
+                  <a class="address" href="#"
+                    >400 University Drive Suite 200 Coral <br />
+                    Gables, <br />
+                    FL 33134 USA</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Links</h4>
+              <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Help</h4>
+              <ul class="links">
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Returns</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Newsletter</h4>
+              <form action="#" class="links">
+                <input
+                  type="text"
+                  placeholder="Enter Your Email Address"
+                  required
+                />
+                <button type="submit">SUBSCRIBE</button>
+              </form>
+            </div>
+          </div>
+          <div class="line-div"></div>
+          <p class="footer-reserved">2023 furino. All rights reserved</p>
+        </section>
+        <!-- Footer Section End -->
+      </body>
+    </html>
   </body>
 </html>

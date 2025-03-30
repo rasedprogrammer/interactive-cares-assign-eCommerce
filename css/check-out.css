@@ -1,0 +1,209 @@
+/* Banner Section Style Start */
+.banner-area {
+  position: relative;
+}
+.banner {
+  width: 100%;
+  height: 320px;
+  background-image: url(../images/main/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-container {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-title {
+  margin-top: -25px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+/*  */
+/* Service Section Style Start */
+
+.service-area {
+  width: 100%;
+  height: 100%;
+  background-color: #faf3ea;
+  padding: 5rem;
+  margin-top: 5rem;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.service-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.service-items img {
+  width: 60px;
+}
+.service-items h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.service-items p {
+  color: #898989;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Service Section Style End */
+/* Product Billing And Product Summer Styling Start */
+.checkout-area {
+  width: 80%;
+  margin: 0 auto;
+}
+.check-out {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.billing-section {
+  margin-right: 10rem;
+}
+.name-div {
+  display: flex;
+}
+.name-div {
+  display: flex;
+  justify-content: space-around;
+}
+.billing-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.firt-name,
+.last-name,
+.company-div,
+.dropdown-input-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  border: 1px solid #9f9f9f;
+}
+.input-field {
+  padding: 0.8rem 0.1rem;
+  border: 1px solid #9f9f9f;
+  border-radius: 8px;
+}
+.input-field option {
+  color: #898989;
+}
+#label-mg {
+  margin-top: 10px;
+}
+/* Product Billing And Product Summer Styling End */
+.product-summary {
+  margin-top: 2rem;
+}
+.product-text-div,
+.product-total-text {
+  line-height: 2.5rem;
+}
+.product-sum {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  font-size: 1rem;
+  color: #9f9f9f;
+}
+.text span {
+  color: #000;
+}
+.product-total-text {
+  text-align: end;
+}
+.product-total p {
+  font-weight: 300;
+}
+.total-color-price {
+  font-size: 1.2rem;
+  color: #b88e2f;
+  font-weight: 700;
+}
+.bank-transer,
+.payment-bank,
+.payment-cash {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0;
+}
+.bank-transer p {
+  font-weight: 400;
+}
+.bank-policy {
+  font-weight: 300;
+  color: #9f9f9f;
+  margin: 1rem 0;
+}
+.dot-circle {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 0.5rem;
+}
+.dot-black-circle {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #898989;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.payment-bank p,
+.payment-cash p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9f9f9f;
+}
+.despriction {
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: 300;
+  color: #898989;
+}
+.color-bold {
+  color: #000;
+  font-weight: bold;
+}
+.btn {
+  margin: 4rem 0;
+  text-align: center;
+}
+.btn a {
+  padding: 0.8rem 4rem;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

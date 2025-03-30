@@ -21,6 +21,7 @@
   text-align: center;
 }
 .banner-title {
+  margin-top: -25px;
   font-size: 3rem;
   font-weight: 500;
 }
