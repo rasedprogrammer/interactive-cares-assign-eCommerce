@@ -6,7 +6,7 @@
     <title>Shop</title>
     <!-- External Css Styling -->
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="stylesheet" href="../css/single-page.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,44 +22,43 @@
         <div class="navbar-area">
           <div class="navbar">
             <a href="#" class="nav-logo">
-              <img src="./images/main/logo.png" alt="Website Logo" />
+              <img src="../images/main/logo.png" alt="Website Logo" />
             </a>
             <ul class="nav-menu">
               <li class="nav-list">
-                <a href="#" class="nav-item">Home</a>
+                <a href="/" class="nav-item">Home</a>
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">Shop</a>
+                <a href="../pages/shop.html" class="nav-item">Shop</a>
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">Shop Details</a>
+                <a href="../pages/single-page.html" class="nav-item"
+                  >Product Details</a
+                >
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">Cart</a>
+                <a href="../pages/cart.html" class="nav-item">Cart</a>
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">Checkout</a>
+                <a href="../pages/checkout.html" class="nav-item">Checkout</a>
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">Blog</a>
+                <a href="../pages/blog.html" class="nav-item">About</a>
               </li>
               <li class="nav-list">
-                <a href="#" class="nav-item">About</a>
-              </li>
-              <li class="nav-list">
-                <a href="#" class="nav-item">Contact</a>
+                <a href="../pages/contact.html" class="nav-item">Contact</a>
               </li>
             </ul>
             <div class="icons-bar">
               <div class="icons">
                 <img
-                  src="./images/main/icons/account-alert-outline.png"
+                  src="../images/main/icons/account-alert-outline.png"
                   alt="Account Alert"
                 />
-                <img src="./images/main/icons/search.png" alt="Search Icon" />
-                <img src="./images/main/icons/heart.png" alt="Heart Icon" />
+                <img src="../images/main/icons/search.png" alt="Search Icon" />
+                <img src="../images/main/icons/heart.png" alt="Heart Icon" />
                 <img
-                  src="./images/main/icons/shopping-cart.png"
+                  src="../images/main/icons/shopping-cart.png"
                   alt="Shopping Cart"
                 />
               </div>
@@ -69,6 +68,236 @@
       </nav>
     </header>
     <!-- Header Section End -->
+    <!-- Page Path Start -->
+    <div class="filtering-area">
+      <div class="filter">
+        <div class="left-content">
+          <div class="filter-div">
+            <span>Home ></span>
+            <span>Shop ></span>
+          </div>
+          <div class="divided-div"></div>
+          <div class="result-div">
+            <p class="result-text">Asgaard sofa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Path End -->
+    <section class="product-details-area">
+      <div class="product-details">
+        <div class="product-img">
+          <div class="img-container">
+            <div class="mini-image">
+              <img
+                src="../images/main/product-details/product-img/img-01.png"
+                alt="Mini Img 01"
+              />
+              <img
+                src="../images/main/product-details/product-img/img-02.png"
+                alt="Mini Img 02"
+              />
+              <img
+                src="../images/main/product-details/product-img/img-03.png"
+                alt="Mini Img 03"
+              />
+              <img
+                src="../images/main/product-details/product-img/img-04.png"
+                alt="Mini Img 04"
+              />
+            </div>
+            <div class="full-image">
+              <img
+                src="../images/main/product-details/product-img/img-05.png"
+                alt="Full Image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="product-text">
+          <h1 class="product-title">Asgaard sofa</h1>
+          <p class="product-price">Rs. 250,000.00</p>
+          <div class="product-rating-div">
+            <img
+              src="../images/main/product-details/product-img/rating.png"
+              alt=""
+            />
+
+            <div class="divided-div"></div>
+            <p class="customer-count">5 Customer Review</p>
+          </div>
+          <p class="product-des">
+            Setting the bar as one of the loudest speakers in its class, the
+            Kilburn is a compact, stout-hearted hero with a well-balanced audio
+            which boasts a clear midrange and extended highs for a sound.
+          </p>
+          <p>Size</p>
+          <div class="product-size">
+            <a id="active" href="#">L</a>
+            <a href="#">XL</a>
+            <a href="#">XS</a>
+          </div>
+          <p>Color</p>
+          <div class="product-color">
+            <div class="color-blue"></div>
+            <div class="color-black"></div>
+            <div class="color-yellow"></div>
+          </div>
+          <div class="add-card-section">
+            <p class="count-no">- 1 +</p>
+            <a class="add-to-cart-btn" href="#">Add to Cart</a>
+            <a href="#" class="compare">+ Compare</a>
+          </div>
+          <hr class="hr-tag" />
+          <!-- Tag & Category Section Start-->
+          <div class="tag-and-category">
+            <div class="left-side">
+              <p>SKU</p>
+              <p>Category</p>
+              <p>Tags</p>
+              <p>Share</p>
+            </div>
+            <div class="middle-side">
+              <p>:</p>
+              <p>:</p>
+              <p>:</p>
+              <p>:</p>
+            </div>
+            <div class="right-side">
+              <p>SS001</p>
+              <p>Sofas</p>
+              <p>Sofa, Chair, Home, Shop</p>
+              <div class="icons">
+                <img
+                  src="../images/main/product-details/product-img/fb.png"
+                  alt="FB Icon"
+                />
+                <img
+                src="../images/main/product-details/product-img/linkdin.png"
+                alt="Linkedin" Icon">
+                <img
+                  src="../images/main/product-details/product-img/twitter.png"
+                  alt="Twitter Icon"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Tag & Category Section End-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Description Start -->
+
+    <section class="product-description-area">
+      <hr class="hr-tag" />
+      <div class="product-descriptiong">
+        <div class="product-title-area">
+          <h1 id="active-h1">Description</h1>
+          <h1>Additional Information</h1>
+          <h1>Reviews [5]</h1>
+        </div>
+        <p class="description-01">
+          Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+          portable active stereo speaker takes the unmistakable look and sound
+          of Marshall, unplugs the chords, and takes the show on the road.
+        </p>
+        <p class="description-02">
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+          vintage styled engineering. Setting the bar as one of the loudest
+          speakers in its class, the Kilburn is a compact, stout-hearted hero
+          with a well-balanced audio which boasts a clear midrange and extended
+          highs for a sound that is both articulate and pronounced. The analogue
+          knobs allow you to fine tune the controls to your personal preferences
+          while the guitar-influenced leather strap enables easy and stylish
+          travel.
+        </p>
+        <div class="product-img">
+          <img
+            src="../images/main/product-details/furniture-01.png"
+            alt="Furniture-01"
+          />
+          <img
+            src="../images/main/product-details/furniture-02.png"
+            alt="Furniture-02"
+          />
+        </div>
+      </div>
+      <hr class="hr-tag" />
+    </section>
+    <!-- Product Description End -->
+    <!-- Product Section Start -->
+    <section class="product-more">
+      <h1>Related Products</h1>
+      <div class="products-content-area">
+        <!-- Product 01 Start -->
+        <div class="product-content">
+          <div class="product-img">
+            <img src="../images/main/products/pingky.png" alt="Pingky Image" />
+            <p class="product-tag-dis">-50%</p>
+          </div>
+          <div class="prodcut-text">
+            <h3 class="product-title">Pingky</h3>
+            <p class="product-text">Cute bed set</p>
+            <div class="product-price-area">
+              <p class="current-price">Rp 7.000.000</p>
+              <p class="actual-price">Rp 14.000.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Product 01 Start -->
+        <!-- Product 02 Start -->
+        <div class="product-content">
+          <div class="product-img">
+            <img src="../images/main/products/muggo.png" alt="Muggo Image" />
+            <p class="product-tag">New</p>
+          </div>
+          <div class="prodcut-text">
+            <h3 class="product-title">Muggo</h3>
+            <p class="product-text">Small mug</p>
+            <div class="product-price-area">
+              <p class="current-price">Rp 150.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Product 02 Start -->
+        <!-- Product 03 Start -->
+        <div class="product-content">
+          <div class="product-img">
+            <img src="../images/main/products/pingky.png" alt="Pingky Image" />
+            <p class="product-tag-dis">-50%</p>
+          </div>
+          <div class="prodcut-text">
+            <h3 class="product-title">Pingky</h3>
+            <p class="product-text">Cute bed set</p>
+            <div class="product-price-area">
+              <p class="current-price">Rp 7.000.000</p>
+              <p class="actual-price">Rp 14.000.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Product 03 Start -->
+        <!-- Product 04 Start -->
+        <div class="product-content">
+          <div class="product-img">
+            <img src="../images/main/products/sylth.png" alt="Potty Image" />
+            <p class="product-tag">New</p>
+          </div>
+          <div class="prodcut-text">
+            <h3 class="product-title">Potty</h3>
+            <p class="product-text">Minimalist flower pot</p>
+            <div class="product-price-area">
+              <p class="current-price">Rp 500.000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Product 04 Start -->
+      </div>
+      <div class="show-btn">
+        <a class="show-more-btn" href="#">Show More</a>
+      </div>
+    </section>
+    <!-- Product Section End -->
     <!-- Footer Section Start -->
     <hr class="hr-tag" />
     <section class="footer">
