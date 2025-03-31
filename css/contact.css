@@ -1,0 +1,174 @@
+/* Banner Section Style Start */
+.banner-area {
+  position: relative;
+}
+.banner {
+  width: 100%;
+  height: 320px;
+  background-image: url(../images/main/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-container {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-title {
+  margin-top: -25px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.banner-path span {
+  font-weight: 500;
+}
+/*  */
+/* Service Section Style Start */
+
+.service-area {
+  width: 100%;
+  height: 100%;
+  background-color: #faf3ea;
+  padding: 5rem;
+  margin-top: 5rem;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.service-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.service-items img {
+  width: 60px;
+}
+.service-items h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.service-items p {
+  color: #898989;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Service Section Style End */
+/* Product Billing And Product Summer Styling Start */
+.checkout-area {
+  width: 90%;
+  margin: 0 auto;
+}
+.contact-main-section {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+.contact-section {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10rem;
+}
+.name-div {
+  display: flex;
+  justify-content: space-around;
+}
+.billing-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.firt-name,
+.last-name,
+.company-div,
+.dropdown-input-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  border: 1px solid #9f9f9f;
+}
+.input-field {
+  /* padding: 1.3rem 13rem 1rem; */
+  padding: 1.3rem 13rem 1rem;
+  border: 1px solid #9f9f9f;
+  border-radius: 8px;
+}
+.input-field option {
+  color: #898989;
+}
+#label-mg {
+  margin-top: 10px;
+}
+/* Product Billing And Product Summer Styling End */
+
+/* ================================================= */
+.contact-main-area {
+  text-align: center;
+  margin: 6rem 0;
+}
+.contact-main-area h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.contact-main-area p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #9f9f9f;
+  margin-top: 1rem;
+}
+.contact-main-section {
+  display: flex;
+  justify-content: space-between;
+}
+.address-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: self-start;
+  gap: 1rem;
+}
+.address-area {
+  margin-top: 20px;
+}
+.address-div,
+.phone-div,
+.work-time-div {
+  margin-bottom: 2rem;
+}
+.address-div img {
+  height: 23px;
+  margin-top: 4px;
+}
+.address-text {
+  color: #000000;
+}
+.con-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.con-para {
+  font-size: 1rem;
+  font-weight: 300;
+}
+#big-input {
+  padding: 2rem 15rem;
+}
