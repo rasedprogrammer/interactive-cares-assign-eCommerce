@@ -85,6 +85,7 @@
 }
 .cart-heading ul a {
   text-decoration: none;
+  color: #000000;
 }
 .cart-summary {
   width: 40%;
